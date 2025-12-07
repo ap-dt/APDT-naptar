@@ -35,7 +35,8 @@
   </style>
 </head>
 
-<body onload="alert('Üdvözlöm az APDT 2025-ös gólyatábora oldalán!!!');">
+<body >
+    <!-- onload="alert('Üdvözlöm az APDT 2025-ös gólyatábora oldalán!!!');" -->
     <a class="naptar" href="../index.html">← Vissza a naptárhoz</a>
 
 
@@ -65,7 +66,7 @@
 
 
     <h1>𓆩GÓLYATÁBOR 2025𓆪</h1>
-    <p style="text-align: right; margin-right:14rem; font-size: xx-large;"><b>APDT</b></p>
+    <p style="text-align: right; margin-right:15%; font-size: xx-large;"><b>APDT</b></p>
     <img src="media/apdtlogo1.PNG" style="position:fixed; right:11px;  bottom: 15px; width:50px; z-index:-1;">
 
 
@@ -75,28 +76,33 @@
             <div class="top"></div>
         </div>
         <div class="box-center">
+             
             <div class="inside">
-                <p id="golyasText" style="grid-area: i1"></p>
+               <div style="grid-area: i1"><!-- golyas hany nap -->
+                <p id="golyasText" ></p></div>
+                <!-- kepek -->
                 <div class="item2" style="grid-area: i2">
                     <div class="title">KÉPEK</div>
                     <div class="scrollos">
-                        <img src="media/im1.jpg" style="height:260px;">
-                        <img src="media/im2.jpg" style="height:260px;">
-                        <img src="media/im3.jpg" style="height:260px;">
-                        <img src="media/im4.jpg" style="height:260px;">
-                        <img src="media/im5.jpg" style="height:260px;">
-                        <img src="media/im6.jpg" style="height:260px;">
-                        <img src="media/im7.jpg" style="height:260px;">
-                        <img src="media/im8.jpg" style="height:260px;">
-                        <img src="media/im9.jpg" style="height:260px;">
-                        <img src="media/im10.jpg" style="height:260px;">
-                        <img src="media/im11.jpg" style="height:260px;">
-                        <img src="media/im13.jpg" style="height:260px;">
-                        <img src="media/madam.jpg" style="height:260px;">
+                        <img src="media/im1.jpg"  >
+                        <img src="media/im2.jpg"  >
+                        <img src="media/im3.jpg"  >
+                        <img src="media/im4.jpg"  >
+                        <img src="media/im5.jpg"  >
+                        <img src="media/im6.jpg"  >
+                        <img src="media/im7.jpg"  >
+                        <img src="media/im8.jpg"  >
+                        <img src="media/im9.jpg"  >
+                        <img src="media/im10.jpg" >
+                        <img src="media/im11.jpg" >
+                        <img src="media/im13.jpg" >
+                        <img src="media/madam.jpg">
                     </div>
                 </div>
+                <!-- infok -->
                 <div class="item2" style="grid-area:i3;">
                     <div class="title">INFÓK</div>
+                    <div>
                     <p style="font-size: larger; margin:0px;">Minden évben megszervezésre kerül az Apáczai Gólyatábora
                         az
                         <b>APDT</b> által. Ez persze a frissen érkezett gólyák számára van. Idén:
@@ -106,7 +112,9 @@
                         <li><b>Helyszín:</b> Zsobok,</li>
                         <li><b>Téma:</b> Alice Csodaországban</b></li>
                     </ul>
+                    </div>
                 </div>
+                <!-- tema -->
                 <div class="item2" style="grid-area:i6; background-size:60%;">
                     <div class="title" style="margin-bottom:10px;">TÉMA</div>
                     <div class="tema">
@@ -133,6 +141,7 @@
 
                     </div>
                 </div>
+                <!-- appoly -->
                 <div class="item" style="grid-area:i4;">
                     <div class="title">APPOLY</div>
                     <p style="font-size:larger">A kedvenc részem az egész gólyatáborból az APPOLY volt. Mindenki ezt
@@ -156,6 +165,7 @@
 
                     </div>
                 </div>
+                <!-- insta -->
                 <div class="item2" style="grid-area:i5;">
                     <div class="title">INSTAGRAM</div>
                     <p style="font-size:larger">Az <a href="https://www.instagram.com/apaczaidt?igsh=Y3Zya3BoMWh2Y2kw"
@@ -179,12 +189,13 @@
                         </div>
                     </div>
                 </div>
+                <!-- hivozene -->
                 <div class="item2" style="grid-area:i7; background-size: 150%;">
-                    <div class="title" style="background-size: cover; font-size: 20px; padding-top: 10px;">HÍVÓZENE
+                    <div class="title" style="background-size: cover; font-size: large5; padding-top: 4%;">HÍVÓZENE
                     </div>
-                    <p style="font-size: 14px; margin:10px; text-align: center;">A hívózene teljesen meghatározza egy
+                    <p style="font-size:small ; margin:5%; text-align: center;">A hívózene teljesen meghatározza egy
                         rendezvénynek a hangulatát.</p>
-                    <p style="font-size: 14px; margin:10px; text-align: center;">A gólyatábor jellegzetes zenéje a Tedd
+                    <p style="font-size: small; margin:5%; text-align: center;">A gólyatábor jellegzetes zenéje a Tedd
                         fel a kezed lett:</p>
                     <audio controls style="width:250px;">
                         <source src="media/tedd fel a kezed.mp3" type="audio/mp3">

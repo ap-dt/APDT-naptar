@@ -30,6 +30,7 @@
 	--blend: darken;
 	--macska: url(media/macskac.jpg);
 	--item: url(media/texturabglight.png);
+	--height: 250px;
 
 }
 
@@ -159,7 +160,7 @@ h1 {
 	text-align: center;
 	text-decoration: underline;
 	font-weight: bold;
-	font-size: 70PX;
+	font-size: 6em;
 	margin-bottom: 0px;
 	margin-top: 70px;
 	/* margin: 70px 30px; */
@@ -209,7 +210,7 @@ h1 {
 
 .container {
 	margin: 0 7%;
-
+	min-height: fit-content;
 }
 
 
@@ -236,7 +237,7 @@ h1 {
 .inside {
 	margin: 0 23px;
 	background-color: var(--inside);
-	min-height: 700px;
+	min-height: fit-content;
 	padding: 15px;
 	display: grid;
 	gap: 30px;
@@ -283,6 +284,9 @@ h1 {
 	transition: 1s;
 	filter: none
 }
+
+.scrollos img{height:260px}
+
 
 .scrollosh {
 	border: 5px groove var(--golya-bg);
@@ -468,11 +472,41 @@ audio::-webkit-media-controls-time-remaining-display {
 }
 
 @media screen and (max-width: 900px) {
+	/* .darkmode{background-image:none; background-color:#2c2c2c} */
 	.container {
-		margin
+		margin: 0 3%;
 	}
+	/* h1{font-size:50px;} */
+	.inside{
+		gap:1em;
+		grid-template-columns: 1fr 1fr 1fr;
+		/* grid-template-rows: 250px; */
+		grid-template-areas:
+		"i1 i1 i1"
+		"i2 i2 i2"
+		"i4 i4 i4"
+		"i4 i4 i4"
+		"i4 i4 i4"
+		"i6 i6 i6"
+		"i3 i3 i3 "
+		"i5 i5 i7"
+	}
+	.scrollos img{height:160px}
+	#i5{height:70px}
 
 
 
 
+}
+
+html,
+body {
+  /* width: 100% !important;
+  height: 100% !important; */
+  min-height: 100vh !important;
+  min-width: 100vh !important;
+  margin: 0 !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  /* overflow-x: hidden !important; */
 }
