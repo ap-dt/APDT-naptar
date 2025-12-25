@@ -499,7 +499,7 @@ audio::-webkit-media-controls-time-remaining-display {
 /* .darkmode{background-image:none; background-color:#2c2c2c} */
 
 @media screen and (max-width: 1000px) {
-	
+	body{font-size:xx-large;}
 	.container {
 		margin: 0 3%;
 	}
@@ -543,3 +543,4 @@ body {
   padding: 0 !important;
   /* overflow-x: hidden !important; */
 }
+
