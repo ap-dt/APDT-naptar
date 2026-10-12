@@ -6,7 +6,7 @@
 
 body {
   font-family: 'Luminari', monospace, sans-serif;
-  background-color:rgb(168, 184, 166);;
+  background-color:rgb(168, 184, 166);
   /* background-image: url('media/rightside.jpeg'); */
   width: 1024px;
   background-attachment: fixed;
@@ -85,6 +85,7 @@ ul.fekete {
 .container1 {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
+  grid-auto-flow: column;
   justify-items: center;
   justify-content: center;
   align-content: center;
