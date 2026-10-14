@@ -6,7 +6,7 @@
 
 body {
   font-family: 'Luminari', monospace, sans-serif;
-  background-color:rgb(168, 184, 166);
+  background-color:#a8b8a6;
   /* background-image: url('media/rightside.jpeg'); */
   width: 1024px;
   background-attachment: fixed;
@@ -16,6 +16,16 @@ body {
   font-size: 1rem;
 
 }
+/* .bg{
+  min-width:100%!important;
+background-image: url('media/hatter.png');
+background-attachment: fixed;
+background-size: cover;
+background-repeat: repeat-y;
+display:grid;
+width:100em;
+ 
+} */
 
 a.apgif {
   width: auto;
@@ -85,7 +95,6 @@ ul.fekete {
 .container1 {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-auto-flow: column;
   justify-items: center;
   justify-content: center;
   align-content: center;
@@ -122,7 +131,9 @@ ul.fekete {
   BORDER-radius: 8px;
 }
 .honapnev1{
- background-color:rgb(122, 52, 56);
+ /* background-color:#7a3438; */
+ background-image: url('media/valami2.png');
+ background-size:cover;
  border-bottom:3px solid  #ac9f91;
 }
 .honapnev {
@@ -324,7 +335,7 @@ details[open] {
   /* body{background-image: url(media/apdtlogo1.PNG);} */
   p.nav {
     margin: 7px;
-    font-size: 3rem;
+    font-size: 2.5rem;
   }
 
   ul.fekete {
@@ -333,6 +344,7 @@ details[open] {
 
   .navcucc {
     font-size: 1.8rem;
+    padding:1rem;
   }
   .honapnev{
     font-size:2.2rem;
@@ -350,8 +362,8 @@ details[open] {
   }
 
   .honapbox {
-    width: 700px;
-    height: 400px;
+    width: 43rem;
+    height: 26rem;
     /* background-image: url('media/red700.png');
     background-repeat: no-repeat; */
   }
